@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recado para a gi</title>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .main{
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+    <div class="main">
+    <h1>Clique aqui para receber seu texto</h1>
+    <input type="button" value="Ver texto" onclick="abrirTexto()">
+    <br><br><br>  
+    <div class="texto">
+
+    </div>
+
+    <script>
+        function abrirTexto(){
+           let txt = document.querySelector(`.texto`) 
+           txt.innerText = `Olha, não faço ideia de como falar isso para você e nem estou com coragem para mandar isso kkkk. Eu sempre fui um menino de muitos 'amigos', mas ultimamente não tenho mais tantos, acho que não passa dos dedos de uma mão. Cara, minha vida estava uma mistura de calma com bagunça até o Pereira me mostrar uma foto sua e perguntar o que eu achei de você. E, de primeira, eu nem sabia o que eu senti, não sabia o que queria e, enfim, pode parecer que eu não fui tímido quando te encontrei na academia. Mas o esforço que fiz para fazer tudo o que fiz, por mais simples que tenha sido, eu nunca consegui fazer nada sem ser tímido. E eu estava pensando o quão boa você está sendo pra mim... eu quero dizer que você me ajuda a lidar com as coisas. Você me ajuda a lidar com a minha mente, que nela eu tenho que ser perfeito e não errar em nada, mas você entende o meu lado e me ajuda. Porra, eu sou muito ruim com palavras e nem sei se deveria estar te falando isso, mas foda-se. E eu quero te esperar e você sabe o que eu digo, porque a gente não precisa estar colado para estar junto, já diz o Luan Santana kkk. Eu quero te esperar porque você é uma menina que tem os ideais bons, trabalha para conquistar as coisas e, com tão pouco tempo te conhecendo, você está me fazendo bem... E olha, foda-se, eu falo mesmo, sou aluno do Paulo Muzy kkkkkkkk pode anotar aí, você ainda vai ser minha Roberta. Você disse que estava com medo de eu não gostar de você quando eu visse você kkkkkk, foi aí que eu me perdi na sua beleza. A combinação do jeito que você me trata com o jeito que você se preocupa comigo, com a sua beleza, me matou... E eu poderia passar o resto da noite escrevendo aqui, mas isso eu faço outro dia...
+           `
+        }
+        
+    </script>
+    </div>
+</body>
+</html>
